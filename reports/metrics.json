@@ -1,0 +1,9 @@
+{
+  "raw_rows": 432,
+  "clean_incidents": 420,
+  "duplicates_removed": 12,
+  "site_days": 1800,
+  "uptime_pct": 98.78545524691359,
+  "sla_compliance_pct": 76.66666666666667,
+  "mttr_minutes": 75.19285714285714
+}

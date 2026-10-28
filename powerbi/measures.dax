@@ -1,0 +1,7 @@
+Network Uptime = DIVIDE(SUM(KPI[available_minutes]), SUM(KPI[observed_minutes]))
+
+SLA Compliance = DIVIDE(SUM(KPI[sla_met]), SUM(KPI[incidents]))
+
+MTTR Minutes = DIVIDE(SUM(KPI[resolution_minutes]), SUM(KPI[incidents]))
+
+Incident Count = SUM(KPI[incidents])
